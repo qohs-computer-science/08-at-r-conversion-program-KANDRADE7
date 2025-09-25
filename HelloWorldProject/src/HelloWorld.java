@@ -60,7 +60,7 @@ public class HelloWorld {
 
 		for(int i=0; i< b.length(); i++){
 			int base =0;
-			int ascii = (int) b.charAt(i);
+			int ascii = (int) b.charAt(i) ;
 			if(ascii == one){
 				base=1;
 			}//end if
